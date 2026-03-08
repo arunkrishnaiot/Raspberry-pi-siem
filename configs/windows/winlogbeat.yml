@@ -1,0 +1,19 @@
+winlogbeat.event_logs:
+  - name: Application
+  - name: Security
+  - name: System
+
+output.logstash:
+  enabled: false
+
+output.file:
+  enabled: true
+  path: "C:/winlogbeat/logs"
+  filename: winlogbeat-output
+  rotate_every_kb: 10240
+
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: C:\winlogbeat\logs
+  name: winlogbeat

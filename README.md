@@ -9,7 +9,7 @@
 ## Author
 **Arun Krishna B V**
 - SOC Analyst | IoT + Blue Team
-- 📧 arunkrishnaiot@gmail.com
+- arunkrishnaiot@gmail.com
 
 ---
 
@@ -44,7 +44,7 @@ Raspberry Pi (192.168.0.6)
   └── Grafana     → dashboard + alerts
          │
          ▼
-    📧 Email Alerts!
+     Email Alerts!
 ```
 
 ---
@@ -175,7 +175,7 @@ Start-Service Promtail-SIEM
 ```
 
 ---
-## 📸 Screenshots
+## Screenshots
 
 ### SOC Dashboard
 ![Dashboard](screenshots/dashboard.png)

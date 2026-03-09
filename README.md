@@ -1,4 +1,4 @@
-# 🔐 Lightweight SIEM & Log Monitoring System
+# Lightweight SIEM & Log Monitoring System
 
 > Hands-on Blue Team project: Building a lightweight SIEM on Raspberry Pi 4 for real-time security monitoring of Linux and Windows devices.
 
@@ -6,14 +6,14 @@
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Arun Krishna B V**
 - SOC Analyst | IoT + Blue Team
 - 📧 arunkrishnaiot@gmail.com
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
@@ -25,13 +25,13 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project implements a lightweight SIEM platform using Raspberry Pi 4 as the central monitoring server. It collects, stores, and analyzes security logs from multiple devices in real time with automated threat detection and professional email alerting.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 ```
 Windows PC (192.168.0.8)
   └── Winlogbeat  → reads Windows Event logs
@@ -49,7 +49,7 @@ Raspberry Pi (192.168.0.6)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Tool | Version | Purpose |
 |---|---|---|---|
@@ -64,7 +64,7 @@ Raspberry Pi (192.168.0.6)
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Centralized log aggregation (Pi + Windows)
 - ✅ Real-time Grafana dashboard (10 panels)
@@ -77,7 +77,7 @@ Raspberry Pi (192.168.0.6)
 
 ---
 
-## 🚨 Detection Rules
+## Detection Rules
 
 | Rule | Source | Query | Threshold |
 |---|---|---|---|
@@ -91,7 +91,7 @@ Raspberry Pi (192.168.0.6)
 
 ---
 
-## 🎯 MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 | Rule | MITRE ID | Technique | Tactic |
 |---|---|---|---|
@@ -105,7 +105,7 @@ Raspberry Pi (192.168.0.6)
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 - Raspberry Pi 4 (4GB RAM minimum)
@@ -193,7 +193,7 @@ Start-Service Promtail-SIEM
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 raspberry-pi-siem/
 ├── README.md
@@ -215,7 +215,7 @@ raspberry-pi-siem/
 
 ---
 
-## 🔗 References
+## References
 
 - [Grafana Loki Documentation](https://grafana.com/docs/loki)
 - [Fluent Bit Documentation](https://docs.fluentbit.io)
@@ -224,5 +224,5 @@ raspberry-pi-siem/
 
 ---
 
-## 📄 License
+## License
 MIT License — feel free to use and modify!

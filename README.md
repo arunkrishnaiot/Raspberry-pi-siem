@@ -8,7 +8,7 @@
 
 ## 👨‍💻 Author
 **Arun Krishna B V**
-- Cybersecurity Engineer | IoT + Blue Team
+- SOC Analyst | IoT + Blue Team
 - 📧 arunkrishnaiot@gmail.com
 
 ---
@@ -175,20 +175,21 @@ Start-Service Promtail-SIEM
 ```
 
 ---
-
 ## 📸 Screenshots
 
 ### SOC Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
 ### Alert Rules
-![Alerts](screenshots/alert-rules.png)
+![Alert Rules 1](screenshots/alert-rules-1.png)
+![Alert Rules 2](screenshots/alert-rules-2.png)
 
 ### Email Alert
 ![Email](screenshots/email-alert.png)
 
 ### Live Logs
-![Logs](screenshots/loki-logs.png)
+![Loki Logs 1](screenshots/loki-logs-1.png)
+![Loki Logs 2](screenshots/loki-logs-2.png)
 
 ---
 

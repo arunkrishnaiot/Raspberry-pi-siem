@@ -66,14 +66,14 @@ Raspberry Pi (192.168.0.6)
 
 ## Features
 
-- ✅ Centralized log aggregation (Pi + Windows)
-- ✅ Real-time Grafana dashboard (10 panels)
-- ✅ 7 detection rules with MITRE ATT&CK mapping
-- ✅ Professional email alerting via Gmail SMTP
-- ✅ Persistent Docker volumes
-- ✅ Auto-start on boot (Pi + Windows)
-- ✅ Static IP configuration
-- ✅ Multi-device security monitoring
+- Centralized log aggregation (Pi + Windows)
+-  Real-time Grafana dashboard (10 panels)
+-  7 detection rules with MITRE ATT&CK mapping
+-  Professional email alerting via Gmail SMTP
+-  Persistent Docker volumes
+-  Auto-start on boot (Pi + Windows)
+-  Static IP configuration
+-  Multi-device security monitoring
 
 ---
 
